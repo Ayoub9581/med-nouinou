@@ -85,9 +85,7 @@ h3 {
   background-size: cover;
   background-position: top center;
   object-fit: cover;
-  animation: zoomin 5s 1;
 
-  -webkit-animation: zoomin 5s 1;
 }
 
 .carousel-item:nth-child(2) {
@@ -96,8 +94,7 @@ h3 {
   background-size: cover;
   background-position: top center;
   object-fit: cover;
-  animation: zoomin 5s 1;
-  -webkit-animation: zoomin 5s 1;
+  
 }
 
 .carousel-item:nth-child(3) {
@@ -106,26 +103,17 @@ h3 {
   background-size: cover;
   background-position: top center;
   object-fit: cover;
-  animation: zoomin 5s 1;
-  -webkit-animation: zoomin 5s 1;
+  
 }
-@keyframes zoomin {
-  0% {
-      -webkit-transform: scale(1);
-  }
-  100% {
-      -webkit-transform: scale(2);
-  }
+.carousel-item:nth-child(4) {
+  background-image: url("../img/IMG_8524_resized-min.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+  
 }
 
-@-webkit-keyframes zoomin {
-  0% {
-      -webkit-transform: scale(1);
-  }
-  100% {
-      -webkit-transform: scale(2);
-  }
-}
 
 
 .map-container-section {
